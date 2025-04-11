@@ -9,14 +9,25 @@
 </head>
 <body>
   <div class="container">
+    <!-- پیغام دستوری که به کاربر می‌گوید روی جعبه کلیک کند -->
     <div class="instruction">سلام! لطفا روی جعبه بالا ضربه بزنید</div>
+
+    <!-- جعبه بسته که کاربر باید روی آن کلیک کند -->
     <img src="chest-closed.png" id="chest" alt="Minecraft Chest" />
+
+    <!-- نامه بسته که بعد از کلیک روی جعبه ظاهر می‌شود -->
     <img src="letter-closed.png" id="letter" class="hidden" alt="Letter" />
+
+    <!-- دعوت‌نامه که پس از باز شدن نامه نمایش داده می‌شود -->
     <div id="invite" class="hidden">
       <img src="invite.png" alt="Birthday Invitation" />
     </div>
+
+    <!-- موسیقی تولد که پس از باز شدن نامه پخش می‌شود -->
     <audio id="music" src="happy-birthday.mp3" preload="auto"></audio>
   </div>
+
+  <!-- کد جاوا اسکریپت -->
   <script src="script.js"></script>
 </body>
 </html>
